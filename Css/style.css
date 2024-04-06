@@ -1,0 +1,325 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+    font-family: "Alegreya";
+}
+
+a{
+    text-decoration: none;
+}
+
+
+p{
+    font-family: "Alegreya";
+}
+
+h2{
+    font-family: "Alegreya";
+}
+
+/*! HEADER navbar*/
+header nav.navbar{
+    background-color: transparent !important;
+    width: 100%;
+    position: absolute;
+}
+
+header nav .container .navbar-brand img{
+    width: 190px;
+}
+
+header nav .container .nav-item .nav-link{
+    color: #fff;
+    margin-right: 10px;
+    font-family: "Alegreya Sans";
+    transition: all .3s ease;
+    font-size: 1.2em;
+}
+
+header nav .container .nav-item .nav-link:hover{
+    color: #c7b393;
+}
+
+/*! HEADER Header*/
+header .Header{
+    width: 100%;
+    background: url('/Images/drew-coffman-1872.jpg') no-repeat;
+    background-size: cover;
+    height:100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header .Header h5{
+    font-family: "Alegreya Sans";
+    color: #fffffb;
+    text-align: center;
+}
+
+header .Header h1{
+    font-family: "Alegreya";
+    font-size: 5rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom:20px;
+
+}
+
+header .Header p{
+    font-family: "Alegreya Sans";
+    color: #fffffb;
+    text-align: center;
+    font-size: 1.5em;
+    font-weight: 100;
+}
+
+header .Header .buttons{
+    text-align: center;
+}
+
+header .Header button.btn1{
+    color: #fff;
+    padding: 15px 28px;
+    border: none;
+    background-color: #8E7754;
+    transition: all .3s ease;
+    border-radius: 5px;
+}
+
+header .Header button.btn2{
+    color: #fff;
+    padding: 13px 26px;
+    border: 1px solid white;
+    background-color: transparent;
+    border-radius: 5px;
+    transition: all .3s ease;
+}
+
+header .Header button:hover{
+    color: black;
+    background-color: #fff;
+}
+
+/*! sec (( 1 )) */
+.sec1{
+    margin-top: 100px;
+    min-height: 100vh;
+}
+
+.sec1 .right{
+    margin-top: 50px;
+}
+
+.sec1 img{
+    width:550px;
+}
+
+.sec1 h2{
+    margin-bottom:30px;
+}
+
+.sec1 p{
+    color: rgb(118, 118, 118);
+    line-height: 30px;
+}
+
+.sec1 .AllPargraph{
+    margin-top: 40px;
+    line-height: 60px;
+}
+
+.sec1 .AllPargraph p{
+    display:inline;
+}
+
+.sec1 .AllPargraph i{
+    color: #8E7754;
+    border-radius: 100%;
+    border: 1px solid rgba(180, 180, 180, 0.498);
+    padding: 10px;
+    background-color: white;
+    transition: all .3s ease;
+    font-size: 1.4em;
+    margin-right: 15px;
+}
+
+/*! sec (( 2 )) */
+.sec2{
+    height: 86vh;
+    background-color: #d5d5d538;
+    display: flex;
+    align-items: center;
+}
+
+.sec2 .left{
+    display: flex;
+    align-items: center;
+}
+
+.sec2 .left h2{
+    margin-bottom: 30px;
+}
+
+.sec2 .left p{
+    color:#757575;
+    width:90%;
+    margin-bottom:30px;
+    line-height:30px;
+}
+
+.sec2 img{
+    width: 550px;
+}
+
+/*! sec (( 3 )) */
+.sec3{
+    margin-top: 80px;
+}
+
+.sec3 h2{
+    margin-bottom: 30px;
+}
+
+.sec3 p{
+    text-align: center;
+    color: #7f7f7f;
+    line-height: 15px;
+}
+
+.sec3 .top{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.sec3 .mid h2{
+    margin-top: 20px;
+    font-size: 1.2em;
+    text-align: center;
+    letter-spacing: 1px;
+}
+
+.sec3 .mid img{
+    width:390px;
+}
+
+/*! sec (( 4 )) */
+.sec4{
+    margin-top:50px;
+    min-height: 95vh;
+    background-color: #d5d5d538;
+    display: flex;
+    align-items: center;
+
+}
+
+.sec4 iframe{
+    height: 500px;
+}
+
+.sec4 h2{
+    line-height:75px;
+}
+
+.sec4 p{
+    color: #7f7f7f;
+}
+
+.sec4 .singlPragraph{
+    margin: 40px 0px;
+}
+
+.sec4 .AllPargraph{
+    line-height: 60px;
+}
+
+.sec4 span i{
+    font-size: 1.1em;
+    color: white;
+    border-radius: 30px;
+    border: 1px solid transparent;
+    padding: 8px;
+    background-color: #8E7754;
+    margin-right: 18px;
+}
+
+/*! Footer */
+footer{
+    background-color: #403d38;
+}
+
+footer .MainFooter{
+    height:50vh;
+}
+
+footer .firstSide{
+
+    width:23%;
+}
+
+footer h6{
+    font-family: "Alegreya";
+    color: white;
+}
+
+footer p{
+    color: #969696bb;
+    border-bottom: 1px solid #dfdfdf1c;
+    margin-bottom: 1.5em;
+
+}
+
+footer span{
+    color: #969696bb;
+}
+
+footer .secondSide{
+    width:23%;
+}
+
+footer .footerBottom{
+    height: 50vh;
+}
+
+footer .footerBottom img{
+    margin: 30px 0px;
+}
+
+footer .footerBottom h6{
+    color: #969696bb;
+    font-weight: 100;
+}
+
+footer .footerBottom i{
+    color: #969696bb;
+    border-radius: 100%;
+    width: 50px;
+    height: 50px;
+    background-color: #403d38;
+    font-size: 1.5rem;
+    padding-top: 10px;
+    margin-right: 5px;
+    transition: all .3s ease;
+}
+
+footer .footerBottom i.fa-facebook:hover{
+    color: white;
+    background-color: rgb(72, 72, 247);
+}
+
+footer .footerBottom .fa-google-plus:hover{
+    background-color: rgb(247, 72, 72);
+    color: white;
+}
+
+footer .footerBottom .fa-linkedin:hover{
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
+
+footer .footerBottom .fa-twitter:hover{
+    background-color: rgb(0, 140, 255);
+    color: white;
+}
